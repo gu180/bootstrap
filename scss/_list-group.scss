@@ -94,13 +94,13 @@
         margin-bottom: 0;
 
         &:first-child {
-          @include border-left-radius($list-group-border-radius);
+          @include border-bottom-left-radius($list-group-border-radius);
           @include border-top-right-radius(0);
         }
 
         &:last-child {
           margin-right: 0;
-          @include border-right-radius($list-group-border-radius);
+          @include border-top-right-radius($list-group-border-radius);
           @include border-bottom-left-radius(0);
         }
       }
